@@ -1,0 +1,134 @@
+baseURL: "https://doanhnhq.github.io"
+languageCode: "en-us"
+title: "0xdq|magic"
+theme: "hugo-profile"
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true	
+params:
+  version: 3
+
+  favicon: "images/hacker.png"
+  description: " Personal portfolio and blog."
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "images/profile.png"
+  name: "Doanh Nguyen"
+  profession: "Security Engineer"
+  github: "https://github.com/doanhnhq-uit"
+  #linkedin: "https://linkedin.com"
+  twitter: "https://twitter.com/doanhnhq"
+  #instagram: "https://instagram.com/"
+  #facebook: "https://facebook.com"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm a security engineer with a self-starter's mindset"
+  descripe_l2_person: "You can find my works [here](#projects)"
+  skills:
+    - name: C/C++ , Python , PHP ,Java , SQL
+      percentage: 60
+    - name: Kali Linux, Ubuntu , CentOS 
+      percentage: 70
+    - name: Soft skills 
+      percentage: 80
+    - name: English 
+      percentage: 70
+    - name: MS Office & Photoshop 
+      percentage: 70  
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "VCCorp"
+      role: "Penetration Tester"
+      startdate: Jun 2018
+      enddate: Present
+      featuredpoints:
+        - point: Penetration Testing Web/Mobile Application
+        - point: Vulnerability Assessment
+        - point: Review source code 
+        - point: Analyze Threat 
+        - point: Exploit 1-day with CVEs pulished
+        - point: Forensic
+        - point: Network pentesting
+        - point: Security Information and Event Management (SIEM)
+  # Education
+  disable_education: false
+  education:
+    - degree: "Master"
+      branch: "Information Security"
+      university: "University Information Technology HCM"
+      startedyear: "2021"
+      graduation: "Now"
+    - degree: "Degree"
+      branch: "Information Security"
+      university: "Post and Telecommunication Institute of Technology"
+      startedyear: "2014"
+      graduation: "2019"
+
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "IDS Rule Management"
+      img: images/manage.png
+      # githublink: "https://github.com/"
+      featuredlink: "https://neo4j.com/"
+      description: "- Using Neo4j to build graph"
+    - name: "AcuScan"
+      img: images/scan.png
+      description: "- Customize template to show output"
+    - name: "AudioWatermark"
+      img: images/management.png
+      githublink: "https://github.com/doanhnhq-uit/AudioWatermark"
+      description: "- Using algorithm LSB into file audio"
+    - name: "Android Malware Classification"
+      img: images/malware.png
+      githublink: "https://github.com/daivc96/android-malware-classification"
+      featuredlink: ""
+      description: "- Research and Manipulate Machine Learning"        
+  # Achievements
+  disable_achievements: false
+  achievements:
+    - title: Scholarship at second semester 2016-2017
+      description: 
+      img: images/scholar.png
+    - title: VNPT Cybersecurity Drill
+      description: We get consolation prizes
+      img: images/security.png
+    - title: Capture The Flag PTITHCM Contest
+      description: 2nd
+      img: images/ctf.png
+    - title: Join Bug Bounty Program Private and Public
+      description: Hackerone,SafeVuln
+      img: images/bugbounty.png  
+
+  # Contact
+  disable_contact: false
+  contact_content: Contact me with the email !
+  email: "doanhnhq@gmail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true
